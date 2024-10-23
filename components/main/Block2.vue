@@ -1,8 +1,8 @@
 <template>
   <div class="content block2">
     <div class="grid grid-cols-5 block2-grid">
-      <div class="col-span-3">
-        <img class="block3-img" src="/img/laptop.png" />
+      <div class="col-span-3 fleximg">
+        <img class="block3-img" src="/img/logo.png" />
       </div>
       <div class="col-span-2 block3-right">
         <h2><span>User-friendly</span> and fast interface</h2>
@@ -17,30 +17,35 @@
 
 <style>
 .block2 {
+  background: #000000;
   padding: 173px 0 130px;
 }
 body h2 {
+  color: #fff;
   padding-bottom: 26px;
   font-size: 60px;
   font-weight: 700;
 }
 .text1 {
+  color: #fff;
   font-size: 24px;
   line-height: 1.4;
   padding-bottom: 19px
 }
 .text2 {
+  color: #fff;
   font-size: 24px;
   padding-bottom: 10px;
 }
 .text3 {
+  color: #fff;
   font-size: 18px;
 }
 .separator {
   width: 98px;
   height: 4px;
   margin: 20px 0 32px;
-  background: #6352CD;
+  background: #f0af1b;
 }
 .block3-img {
   position: relative;
@@ -50,6 +55,13 @@ body h2 {
 .block3-right {
   position: relative;
   left: -27px;
+}
+.fleximg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  margin-bottom: 62px;
 }
 
 @media (max-width: 900px) {
@@ -70,6 +82,7 @@ body h2 {
     padding: 43px 0 44px;
   }
   .text1 {
+    color: #fff;
     font-size: 16px;
     padding-bottom: 11px;
   }
@@ -77,9 +90,11 @@ body h2 {
     margin: 20px 0 20px;
   }
   .text2 {
+    color: #fff;
     font-size: 18px;
   }
   .text3 {
+    color: #fff;
     font-size: 15px;
   }
 }

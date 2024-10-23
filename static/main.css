@@ -59,9 +59,9 @@ meter {
 }
 
 body {
-  color: #000;
+  color: #fff;
   font-family: 'Poppins', sans-serif;
-  background: #FFF;
+  background: #000;
   font-weight: 400;
 }
 * {
@@ -107,7 +107,7 @@ body h3 {
 
 .btn {
   height: 52px;
-  background: #6352CD;
+  background: #f0af1b;
   border-radius: 5px;
   font-weight: 400;
   color: #FFF;

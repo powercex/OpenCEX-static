@@ -38,12 +38,14 @@
 </template>
 <style>
 .socials-wrapper {
+  color: #fff;
   padding: 72px 59px;
-  background: #EDF1FA;
+  background: #000000;
   border-radius: 38px;
   text-align: center;
 }
 .socials-wrapper p {
+  color: #fff;
   font-size: 20px;
   padding-bottom: 30px;
 }
@@ -53,11 +55,13 @@
   flex-wrap: wrap;
 }
 .socials a {
+  color: #fff;
   display: block;
   width: 48%;
   margin-bottom: 23px;
 }
 .block5-text {
+  color: #fff;
   font-size: 24px;
 }
 .block5 {
@@ -69,6 +73,7 @@
   padding-top: 0;
 }
 .socials a {
+  color: #fff;
   position: relative;
 }
 .socials a span {
@@ -92,6 +97,7 @@
     padding-right: 0;
   }
   .block5-text {
+    color: #fff;
     font-size: 15px;
     margin-bottom: 40px;
   }
@@ -104,6 +110,7 @@
     padding-bottom: 19px;
   }
   .socials a {
+    color: #fff;
     margin-bottom: 12px;
     overflow: hidden;
     border-radius: 5px;

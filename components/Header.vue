@@ -3,8 +3,8 @@
     <div class="content flex justify-between">
       <div class="header__logo">
         <nuxt-link :to="`/${lang}`" class="header__logo-link">
-          <img :src="this.$config.axios.logo ? this.$config.axios.logo : '/img/logo_st.svg'" class="logo-desc" alt="logo" />
-          <img :src="this.$config.axios.logo ? this.$config.axios.logo : '/img/logo_st-black.svg'" class="logo-mob" alt="logo" />
+          <img :src="this.$config.axios.logo ? this.$config.axios.logo : '/img/logo-small.png'" class="logo-desc header__logo_img" alt="logo" />
+          <img :src="this.$config.axios.logo ? this.$config.axios.logo : '/img/logo-small.png'" class="logo-mob header__logo_img" alt="logo" />
         </nuxt-link>
       </div>
       <div class="header__etc flex justify-between flex-no-wrap">
@@ -168,11 +168,12 @@ export default {
   right: 0;
   display: block;
   width: 151%;
-  background: #FFF;
+  background: #000;
+  color: #f0af1b;
   box-shadow: 0 0 2px 1px #00000040;
 }
 .navigation__item {
-  color: #000;
+  color: #f0af1b;
   padding: 12px 2px;
 }
 .navigation__link img {
@@ -192,13 +193,14 @@ export default {
   position: absolute;
   top: 51px;
   left: 0;
-  border: 1px solid #483D89;
+  border: 1px solid #f0af1b;
   width: 100%;
   padding: 10px 20px;
-  background: #6053C6;
+  background: #f0af1b;
+  color: #000;
 }
 .navigation-language__link {
-  color: #FFF;
+  color: #f0af1b;
   text-transform: capitalize;
   cursor: pointer;
   display: block;
@@ -210,10 +212,10 @@ export default {
 .header-btn {
   width: 102px;
   height: 46px;
-  border: 1px solid #483D89;
+  border: 1px solid #f0af1b;
   border-radius: 5px;
   text-align: center;
-  color: #fff;
+  color: #f0af1b;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -226,10 +228,10 @@ export default {
 .header__language-current {
   width: 102px;
   height: 46px;
-  border: 1px solid #483D89;
+  border: 1px solid #f0af1b;
   border-radius: 5px;
   text-align: center;
-  color: #fff;
+  color: #000;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -239,19 +241,23 @@ export default {
   margin-left: 20px;
   width: 130px;
   height: 46px;
-  background: #6352CD;
+  background: #f0af1b;
   border-radius: 5px;
-  color: #fff;
+  color: #000;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
 }
 .burger__text {
+  color:#fff;
   margin-left: 10px;
 }
 .header__language-current span {
   text-transform: uppercase;
+}
+.header__logo_img {
+  max-height: 50px;
 }
 .logo-mob {
   display: none;
@@ -270,11 +276,14 @@ export default {
     display: none;
   }
   .header {
-    background: #FFF;
+    background: #000;
     padding-top: 8px;
   }
   .header__logo {
     width: 100px;
+  }
+  .header__logo_img {
+    max-height: 30px;
   }
   .header__language-current {
     color: #000;
@@ -293,6 +302,7 @@ export default {
     width: 70px;
   }
   .burger {
+    background: #f0af1b;
     width: 40px;
     height: 40px;
     border-radius: 0;

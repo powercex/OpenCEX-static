@@ -3,8 +3,8 @@
     <div class="content">
       <div class="grid grid-cols-2 block1">
         <div class="block1-left">
-          <h1>Start Your Crypto Business</h1>
-          <p class="block-text">Trade crypto in the easiest and safest way!</p>
+          <h1>Crypto Currency European Exchange</h1>
+          <p class="block-text">Buy and sell cryptocurriencies easily with PowerCex's reliable exchange platform, let's start together</p>
           <div class="course">
             <img src="/img/btc.svg" class="inline-block" />
             <span>BTC Price: {{ course.toFixed(2) }} USDT</span>
@@ -12,7 +12,7 @@
           <a class="btn" href="/account/trade/BTC-USDT">Trade Bitcoin Now</a>
         </div>
         <div class="block1-right">
-          <img src="/img/top.png" />
+          <img src="/img/slid-screen_en.png" />
         </div>
       </div>
     </div>
@@ -25,7 +25,7 @@ export default {
 </script>
 <style>
 .main-top-wrapper {
-  background: #292256;
+  background: #000000;
   position: relative;
   padding: 157px 0 88px;
 }

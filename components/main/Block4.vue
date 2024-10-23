@@ -42,14 +42,17 @@
 
 <style>
 .block4 {
+  background: #000000;
   padding: 160px 0 129px;
 }
 .subTitle {
+  color: #fff;
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 18px;
 }
 .subText {
+  color: #fff;
   font-size: 20px;
   padding: 0 80px;
 }
@@ -102,10 +105,12 @@
     margin-bottom: -10px;
   }
   .subTitle {
+    color: #fff;
     font-size: 26px;
     margin-bottom: 7px;
   }
   .subText {
+    color: #fff;
     font-size: 14px;
   }
 }

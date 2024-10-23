@@ -2,7 +2,7 @@
   <div class="main-bottom-part">
     <Block1 :course="info.btc_usdt_price" />
     <Block2 />
-    <div class="trade">
+    <!--<div class="trade">
       <div class="content" style="background-color: initial">
         <h3 class="text-center trade-title">{{ $t('bitcoin_price') }}</h3>
         <div class="graph-wrapper">
@@ -28,7 +28,7 @@
         </div>
         <CurrencyList :filteredPairs="filteredPairs" />
       </div>
-    </div>
+    </div>-->
     <Block4 />
     <Block5 />
   </div>
@@ -185,7 +185,7 @@ export default {
             type: "areaspline",
             color: "#FFF",
             fillOpacity: 0.2,
-            lineColor: "#6352CD",
+            lineColor: "#f0af1b",
             tooltip: {
               valueDecimals: 2,
             },
@@ -205,7 +205,7 @@ body h3 {
   line-height: 60px;
 }
 .trade {
-  background: #EEF1F9;
+  background: #000000;
   padding: 114px 0 138px;
 }
 .graph-wrapper {
@@ -231,7 +231,7 @@ body h3 {
   }
 }
 .content-disabled {
-  background: #FFF;
+  background: #000;
   border-radius: 10px;
   padding: 20px;
 }

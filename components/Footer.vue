@@ -6,7 +6,7 @@
           <div class="copyright">
             {{ new Date().getFullYear() }} © {{ this.$config.axios.title }} Exchange Crypto Investment Platform
           </div>
-          <div class="rights !mb-2">{{$t('built_by')}}</div>
+          <!--<div class="rights !mb-2">{{$t('built_by')}}</div>-->
           <div class="rights">All Rights Reserved</div>
           <div class="footer__socials-container">
             <a
@@ -135,7 +135,7 @@ export default {
 <style scoped lang='scss'>
 .footer {
   padding: 65px 0 77px;
-  border-top: 1px solid #D9D9D9;
+  border-top: 1px solid #f0af1b;
 }
 .footer-content-wrapper {
   display: flex;
@@ -151,7 +151,7 @@ export default {
 }
 .rights {
   font-size: 14px;
-  color: #B4B4C2;
+  color: #f0af1b;
   margin-bottom: 22px;
 }
 .footer-langs {
@@ -162,7 +162,7 @@ export default {
   font-size: 14px;
   width: 98px;
   height: 46px;
-  border: 1px solid #B4C0DB;
+  border: 1px solid #f0af1b;
   border-radius: 5px;
   padding: 5px 17px 5px;
   display: flex;
@@ -179,7 +179,7 @@ export default {
   flex-direction: column;
 }
 .footer-links-column a {
-  color: #42A4FF;
+  color: #f0af1b;
   font-size: 16px;
   margin-bottom: 16px;
   font-weight: 500;
@@ -209,7 +209,7 @@ export default {
   position: absolute;
   top: 51px;
   left: 0;
-  border: 1px solid #B4C0DB;
+  border: 1px solid #f0af1b;
   width: 100%;
   padding: 10px 20px;
   border-radius: 5px;
@@ -271,7 +271,7 @@ export default {
     font-size: 13px;
     width: 71px;
     height: 38px;
-    border: 1px solid #B4C0DB;
+    border: 1px solid #f0af1b;
     border-radius: 5px;
     padding: 5px 9px 5px;
     display: flex;
@@ -292,7 +292,7 @@ export default {
 .footer__social-item {
   width: 40%;
   padding-right: 10px;
-  color: #42a4ff;
+  color: #f0af1b;
   white-space: nowrap;
 }
 .footer__social-item span {
